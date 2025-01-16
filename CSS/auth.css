@@ -1,94 +1,92 @@
-/* Header */
 header {
-    background-color: #6dbf73;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #6dbf73;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header p {
-    font-size: 1.1em;
-    margin: 10px 0;
+  font-size: 1.1em;
+  margin: 10px 0;
 }
 
-/* Auth Section */
 .auth-section {
-    margin: 20px auto;
-    max-width: 600px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: 20px auto;
+  max-width: 600px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .auth-box {
-    width: 100%;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
+  width: 100%;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
 }
 
 .auth-box h2 {
-    background-color: #6dbf73;
-    color: white;
-    margin: -20px -20px 20px;
-    padding: 15px;
-    font-size: 1.5em;
-    border-radius: 8px 8px 0 0;
+  background-color: #6dbf73;
+  color: white;
+  margin: -20px -20px 20px;
+  padding: 15px;
+  font-size: 1.5em;
+  border-radius: 8px 8px 0 0;
 }
 
 .auth-box form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .auth-box label {
-    font-size: 1em;
-    text-align: left;
-    color: #555;
-    font-weight: bold;
+  font-size: 1em;
+  text-align: left;
+  color: #555;
+  font-weight: bold;
 }
 
 .auth-box input[type="text"],
 .auth-box input[type="email"],
 .auth-box input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 1em;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
 }
 
 .auth-box input[type="submit"] {
-    background-color: #6dbf73;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    font-size: 1em;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+  background-color: #6dbf73;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .auth-box input[type="submit"]:hover {
-    background-color: #468847;
+  background-color: #468847;
 }
 
 .auth-box p {
-    font-size: 0.9em;
+  font-size: 0.9em;
 }
 
 .auth-box a {
-    color: #6dbf73;
-    text-decoration: none;
-    font-weight: bold;
+  color: #6dbf73;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .auth-box a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }

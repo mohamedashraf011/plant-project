@@ -4,29 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="icon" type="image/png" href="images/plant_628324.png">
     <link rel="stylesheet" href="CSS/auth.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
         <h1>Create a New Account</h1>
         <p>Join us and start exploring the world of plants.</p>
     </header>
+
+    <!-- Registration Section -->
     <section class="auth-section">
         <div class="auth-box">
-            <h2>Register</h2>
+            <h2>Register</h2> 
             <form action="php/register.php" method="POST">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" placeholder="Enter your name" required>
-
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" placeholder="Enter your email" required>
-
                 <label for="password">Password:</label>
                 <input type="password" id="password" name="password" placeholder="Enter your password" required>
-
                 <input type="submit" value="Register">
             </form>
             <p>Already have an account? <a href="login.html">Log in here</a>.</p>
+            <a href="index.html" style="color:#468847; text-decoration: none;">← Back to Home</a>
         </div>
     </section>
 </body>

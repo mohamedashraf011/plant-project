@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Page</title>
+    <link rel="icon" type="image/png" href="images/plant_628324.png">
     <link rel="stylesheet" href="CSS/profile.css">
 </head>
+
 <body>
     <header>
-        <h1 id="user-welcome">Welcome, User!</h1>
+        <h1 id="user-welcome">Welcome, <span id="user-name">Loading...</span>!</h1>
     </header>
 
+    <!-- Profile Section -->
     <section class="profile-section">
         <div class="profile-card">
+            <!-- Profile Details -->
             <h2>Your Profile</h2>
-            <p><strong>Name:</strong> <span id="user-name">Loading...</span></p>
+            <p><strong>Name:</strong> <span id="user-name-detail">Loading...</span></p>
             <p><strong>Email:</strong> <span id="user-email">Loading...</span></p>
-            <p><strong>Joined on:</strong> <span id="user-joined">Loading...</span></p>
 
+            <!-- Update Information Form -->
             <h2>Update Your Information</h2>
             <form action="php/update_profile.php" method="POST">
                 <label for="new_email">New Email:</label>
@@ -29,15 +34,21 @@
                 <input type="submit" value="Update Information">
             </form>
 
+            <!-- Delete Account Form -->
             <h2>Delete Your Account</h2>
             <form action="php/delete_account.php" method="POST" onsubmit="return confirm('Are you sure you want to delete your account? This action cannot be undone.')">
                 <input type="submit" value="Delete Account" class="delete-btn">
             </form>
 
-            <a href="php/logout.php" class="logout-btn">Logout</a>
+            <!-- Navigation Links -->
+            <div class="navigation-buttons">
+                <a href="login.html" class="logout-btn">Logout</a>
+                <a href="index.html" class="back-home-btn">← Back to Home</a>
+            </div>
         </div>
     </section>
 
     <script src="js/profile.js"></script>
 </body>
+
 </html>

@@ -8,15 +8,28 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+    <!-- Header Section -->
     <header>
-        <h1>Welcome to the Plant World</h1>
+        <h1>Welcome to the Plant World</h1> 
+        <nav>
+            <a href="login.html" class="nav-link"> 
+                <span class="icon">🔒</span> Login 
+            </a>
+            <a href="register.html" class="nav-link"> 
+                <span class="icon">📝</span> Register 
+            </a>
+            <a href="profile.html" class="nav-link">
+                <span class="icon">👤</span> Profile 
+            </a>
+        </nav>
     </header>
     
-    <!-- Paragraphs -->
+    
+    <!-- About Section -->
     <section class="about-section">
         <h2>About Plants</h2>
         <div class="about-content">
-            <img src="images/pexels-vovaflame-3126442.jpg" alt="Illustration of plants" class="about-image">
+            <img src="images/pexels-vovaflame-3126442.jpg" alt="Illustration of plants" class="about-image"> 
             <div class="about-text">
                 <p>Plants are vital living organisms that form the backbone of life on Earth. They belong to the kingdom Plantae and range from tiny mosses to towering trees. Plants play a crucial role in maintaining the planet’s ecosystems by producing oxygen through photosynthesis, a process in which they convert sunlight, carbon dioxide, and water into food and energy.</p>
                 <p>Beyond their ecological significance, plants offer countless benefits to humans, including food, medicine, clothing, shelter, and raw materials for industries. They also contribute to mental well-being by enhancing the aesthetic appeal of environments, reducing stress, and improving air quality.</p>
@@ -25,6 +38,7 @@
         </div>
     </section>
     
+    <!-- Resources Section -->
     <section class="resources-section">
         <h2>Learn More About Plants</h2>
         <p>Explore trusted resources to learn more about the amazing world of plants, their care, and their importance to our planet:</p>
@@ -47,15 +61,13 @@
         </div>
     </section>
     
-
     <!-- Images Section -->
     <section>
         <h2>Pictures of plants</h2>
         <div class="image-grid">
-            <!-- First Row -->
             <div class="image-card">
                 <img src="images/pexels-avinashpatel-678751.jpg" alt="A beautiful rose plant">
-                <p> A close-up view of delicate, elongated green leaves arranged in a symmetrical pattern, giving a fresh and natural look.</p>
+                <p>A close-up view of delicate, elongated green leaves arranged in a symmetrical pattern, giving a fresh and natural look.</p>
             </div>
             <div class="image-card">
                 <img src="images/pexels-fotios-photos-1046348.jpg" alt="A lush green fern">
@@ -65,30 +77,22 @@
                 <img src="images/pexels-karoldach-409696.jpg" alt="A blooming sunflower">
                 <p>A field of green grass dotted with small white daisies under soft sunlight, creating a serene and peaceful atmosphere.</p>
             </div>
-            <!-- Second Row -->
             <div class="image-card">
                 <img src="images/pexels-minan1398-1171581.jpg" alt="A cactus in a pot">
                 <p>A pink lotus flower standing tall with its petals open, set against a blurred backdrop of green lily pads in a pond.</p>
             </div>
             <div class="image-card">
                 <img src="images/pexels-pixabay-35196.jpg" alt="A vibrant tulip flower">
-                <p> A close-up of a fern-like plant with intricate green foliage radiating from the center, resembling a natural fractal design.</p>
+                <p>A close-up of a fern-like plant with intricate green foliage radiating from the center, resembling a natural fractal design.</p>
             </div>
             <div class="image-card">
                 <img src="images/pexels-pixabay-57436.jpg" alt="A healthy basil plant">
-                <p>Large, deep-green leaves with visible veins, likely from a tropical plant, creating a bold and lush aesthetic.
-
-
-
-
-
-
-                </p>
+                <p>Large, deep-green leaves with visible veins, likely from a tropical plant, creating a bold and lush aesthetic.</p>
             </div>
         </div>
     </section>
     
-    <!-- List -->
+    <!-- Benefits List Section -->
     <section>
         <h2>Benefits of Plants</h2>
         <ul class="benefits-list">
@@ -123,8 +127,7 @@
         </ul>
     </section>
     
-    
-    <!-- Table -->
+    <!-- Table Section -->
     <section>
         <h2>Popular Plants</h2>
         <div class="table-container">
@@ -156,48 +159,47 @@
                     <tr>
                         <td>
                             <span class="plant-icon">🌿</span>
-                            <span class="plant-name">Basil</span>
+                            <span class="plant-name">Basil</span> 
                         </td>
                         <td>Herb</td>
-                        <td>Full Sun</td>
+                        <td>Full Sun</td> 
                     </tr>
                 </tbody>
             </table>
         </div>
     </section>
     
-    
-    <!-- Form -->
-    <section>
-        <h2>Contact Us</h2>
-        <form action="submit_form.php" method="POST" class="form-table">
-            <table>
-                <tbody>
-                    <tr>
-                        <th><label for="name">Name:</label></th>
-                        <td><input type="text" id="name" name="name" required></td>
-                    </tr>
-                    <tr>
-                        <th><label for="email">Email:</label></th>
-                        <td><input type="email" id="email" name="email" required></td>
-                    </tr>
-                    <tr>
-                        <th><label for="message">Message:</label></th>
-                        <td><textarea id="message" name="message" rows="5" required></textarea></td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" style="text-align: center;">
-                            <input type="submit" value="Submit">
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </form>
-    </section>
-    
-    
-    <footer>
-        <p>&copy; 2024 Plant Website. All Rights Reserved.</p>
-    </footer>
+<!-- Contact Form Section -->
+<section>
+    <h2>Contact Us</h2> 
+    <form action="submit_form.php" method="POST" class="form-table">
+        <table>
+            <tbody>
+                <tr>
+                    <th><label for="name">Name:</label></th>
+                    <td><input type="text" id="name" name="name" required></td>
+                </tr>
+                <tr>
+                    <th><label for="email">Email:</label></th> 
+                    <td><input type="email" id="email" name="email" required></td> 
+                </tr>
+                <tr>
+                    <th><label for="message">Message:</label></th>
+                    <td><textarea id="message" name="message" rows="5" required></textarea></td> 
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;"> 
+                        <input type="submit" value="Submit"> 
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 Plant Website. All Rights Reserved.</p>
+</footer>
 </body>
 </html>
