@@ -12,8 +12,8 @@ header p {
 }
 
 .auth-section {
-  margin: 20px auto;
-  max-width: 600px;
+  margin: 30px auto;
+  max-width: 500px;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -24,29 +24,29 @@ header p {
   width: 100%;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
-  border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+  padding: 30px 25px;
   text-align: center;
 }
 
 .auth-box h2 {
   background-color: #6dbf73;
   color: white;
-  margin: -20px -20px 20px;
+  margin: -30px -25px 25px;
   padding: 15px;
-  font-size: 1.5em;
-  border-radius: 8px 8px 0 0;
+  font-size: 1.4rem;
+  border-radius: 10px 10px 0 0;
 }
 
 .auth-box form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 12px;
 }
 
 .auth-box label {
-  font-size: 1em;
+  font-size: 0.95em;
   text-align: left;
   color: #555;
   font-weight: bold;
@@ -58,8 +58,8 @@ header p {
   width: 100%;
   padding: 10px;
   border: 1px solid #ddd;
-  border-radius: 5px;
-  font-size: 1em;
+  border-radius: 6px;
+  font-size: 0.95em;
 }
 
 .auth-box input[type="submit"] {
@@ -67,18 +67,23 @@ header p {
   color: white;
   border: none;
   padding: 10px 15px;
-  font-size: 1em;
-  border-radius: 5px;
+  font-size: 0.9em;
+  border-radius: 6px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  width: 100%;
+  max-width: 220px;
+  margin: 10px auto 0;
 }
 
 .auth-box input[type="submit"]:hover {
   background-color: #468847;
+  transform: scale(1.02);
 }
 
 .auth-box p {
-  font-size: 0.9em;
+  font-size: 0.85em;
+  margin-top: 15px;
 }
 
 .auth-box a {
